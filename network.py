@@ -12,7 +12,7 @@ import psutil
 
 
 def host_value(value):
-    if not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9._:%-]*", value):
+    if not re.fullmatch(r"[a-zA-Z0-9:][a-zA-Z0-9._:%-]*", value):
         raise argparse.ArgumentTypeError("Usar hostname o IP sin espacios, URL ni opciones")
     return value
 
