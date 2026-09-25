@@ -31,4 +31,4 @@ Usar sólo destinos propios o autorizados. No hay barridos de rangos, descubrimi
 
 ## Qué demuestra
 
-DNS, IPv4/IPv6, diferencia entre ICMP y TCP, puertos, rutas, timeouts y ejecución de comandos sin shell. Las pruebas locales y límites de validación están en [docs/verification.md](../../docs/verification.md).
+DNS, IPv4/IPv6, diferencia entre ICMP y TCP, puertos, rutas, timeouts y ejecución de comandos sin shell. Las pruebas se pueden repetir localmente con los ejemplos de este README; el diagnóstico informa cuando una utilidad del sistema no está instalada.
